@@ -4,7 +4,7 @@ import axios from "axios"
 function Admin(){
     const [users,setUsers]=useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:3000").
+        axios.get("https://mayan-server.vercel.app/").
         then(res=>{
           console.log(res.data);
           setUsers(res.data);
@@ -14,7 +14,7 @@ function Admin(){
         })
       },[])
     return (
-        <div className="h-screen bg-[#3a5a40] text-[#dad7cd] flex justify-center items-center">
+        <div className="min-h-[100%] bg-[#3a5a40] text-[#dad7cd] flex justify-center items-center">
     <div className="overflow-x-auto w-full max-w-5xl p-4">
         <table className="min-w-full table-auto border-collapse border border-[#dad7cd] shadow-md">
             <thead className="">

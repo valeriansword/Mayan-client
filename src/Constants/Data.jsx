@@ -56,7 +56,7 @@ export const navItems = [
   { label: "Services", href: "#" },
   { label: "Products", href: "#" },
   { label: "Certificate", href: "#" },
-  { label: "Gallery", href: "#" },
+  // { label: "Gallery", href: "#" },
 ];
 
 export const servicesData = [

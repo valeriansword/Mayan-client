@@ -31,7 +31,7 @@ function AnimatedRoutes() {
         <Route path="/Services" element={<Services />} />
         <Route path="/Products" element={<Products />} />
         <Route path="/admin" element={<Admin />} />
-        <Route path="/Gallery" element={<Gallery />} />
+        {/* <Route path="/Gallery" element={<Gallery />} /> */}
         <Route path="/Certificate" element={<Certificates />} />
         <Route path="/Products/:id" element={<SeparateProducts />} />
         <Route path="/contacts" element={<Contact />} />

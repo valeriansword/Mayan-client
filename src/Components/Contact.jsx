@@ -48,7 +48,7 @@ const handlePhoneChange = (e) => {
     e.preventDefault();
     // Call the backend API to send the email
     try {
-      const response = await fetch("http://localhost:3000/send-email", {
+      const response = await fetch("https://mayan-server.vercel.app/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
